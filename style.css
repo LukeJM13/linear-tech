@@ -19,13 +19,13 @@ body {
 .navBar {
     background-color: #aa4b44c2;
     box-shadow: 5px 0px 25px rgba(0, 0, 0, 0.28);
-    width: 25%;
-    padding-top: 2rem;
+    width: 30%;
+    padding-top: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #353535f4;
     letter-spacing: 1rem;
     line-height: 3rem;
@@ -33,7 +33,7 @@ body {
 }
 
 .bodyRight {
-    width: 75%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,11 +45,21 @@ body {
     border-width: 1rem;
     border-radius: 0.5rem;
     padding: 50px;
-    font-size: 10vw;
+    font-size: 15vw;
     box-shadow: 5px 0px 25px rgba(0, 0, 0, 0.28);
+}
+
+.logo:hover {
+    color: #aa4b44a2;
+    cursor: pointer;
 }
 
 #lt {
     margin-bottom: 3rem;
     color: #202020f4;
+}
+
+.navButton:hover {
+    color: rgba(255, 255, 255, 0.84);
+    cursor: pointer;
 }
